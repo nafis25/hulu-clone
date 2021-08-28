@@ -19,13 +19,14 @@ const Nav = () => {
                             key === activeGenre
                                 ? "scale-125 text-white"
                                 : "hover:scale-125 hover:text-white"
-                        } active:text-red-500 text-lg`}
+                        } active:text-green-600 text-lg`}
                     >
                         {title}
                     </h2>
                 ))}
             </div>
             <div className="absolute top-0 right-0 bg-gradient-to-l from-[#06202A] h-10 w-1/12" />
+            <div className="absolute top-0 left-0 bg-gradient-to-r from-[#06202A] h-10 w-1/12" />
         </nav>
     );
 };
